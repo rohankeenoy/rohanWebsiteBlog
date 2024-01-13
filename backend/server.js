@@ -50,7 +50,7 @@ app.use('/uploads', express.static('uploads'));
 app.use(express.json());
 
 const corsOptions = {
-  origin: 'https://rohan-keenoy.web.app',
+  origin:  ['https://rohan-keenoy.web.app', 'http://localhost:3000'],
   credentials: true,
 };
 
